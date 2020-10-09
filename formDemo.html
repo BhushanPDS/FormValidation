@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="formDemo.css">
+    
+    <script type="text/javascript" src="formDemo.js">
+                       
+</script>
+   
+   
+  </head>
+  <body >
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-6 mt-5">
+                <img src="image/company-image.png" class="image mt-1" alt="">
+            </div>
+                    <div class="col-sm-6 mt-5">
+                    
+                        <form action="#" onsubmit="return detail(event)" target="_blank">   
+                        <div class="form-group">
+                                <label>UserName:</label>
+                                <input type="text" name="user" class="form-control" id="user" autocomplete="off" placeholder="Enter The UserName ">   
+                                <span id="usename" class="text-danger"></span>  
+                            </div>
+                        
+                        <div class="form-group">
+                            <label>password:</label>
+                            <input type="password"  name="pass" class="form-control" id="pass" autocomplete="off"  placeholder="Enter The Password">      
+                            <span id="password" class="text-danger"></span> 
+                            <span jsslot class="Ax7UZe sxyYjd MQL30b"></span> 
+                        </div>
+                        
+                        
+                        <div class="form-group">
+                            <label>Confirm-password:</label>
+                            <input type="password" name="compass" class="form-control" id="compass" autocomplete="off" placeholder="Re-Enter The Password">           
+                            <span id="Confirmpassword" class="text-danger"></span> 
+                        </div>
+                        <div class="form-group">
+                            <label>Mobile-Number:</label>
+                            <input type="text" name="number" class="form-control" id="mobile" autocomplete="off" placeholder="Enter The Mobile-Number" maxlength="10">           
+                            <span id="MobileNumber" class="text-danger"></span> 
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" name="email" class="form-control" id="email" autocomplete="off" placeholder="Enter The Email">           
+                            <span id="emails" class="text-danger"></span> 
+                        </div>
+                        <div class="form-group">
+                            <label>Adhar Card Number:</label>
+                            <input type="text" name="Adhar" class="form-control" id="card"  autocomplete="off" placeholder="Enter The Adhar-Card Number">           
+                            <span id="adharcard" class="text-danger"></span> 
+                        </div>
+                        
+                            <input type="submit" name="Submit" value="Register" class="btn btn-success" > 
+                            <input type="button" class="btn btn-warning"  onclick="myFunction()" value="Password">
+                            <input type="reset" name="reset" value="Reset" class="btn btn-danger" > 
+                                      
+                
+                </form>
+                </div>
+           
+        </div> 
+    </div>
+
+    
+    <table id="display" >
+        <tr>
+            <th>UserName</th>
+            <th>Password</th>
+            <th>Confirm-password</th>
+            <th>Mobile-Number</th>
+            <th>Email</th>
+            <th>Adhar Card Number</th>
+        </tr>
+    </table>
+
+  </body>
+</html>

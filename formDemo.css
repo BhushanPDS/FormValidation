@@ -1,0 +1,22 @@
+
+
+
+
+body{background-image: url('image/log.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 105%;}
+
+input[type=text]{width: 80%;}
+input[type=password]{width: 80%;
+}
+input[type=email]{width:80%;}
+.image{width: 100%;}
+label{color:white;}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood;
+}
+table,th ,td{border: 2px solid black;}
