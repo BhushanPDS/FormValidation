@@ -1,15 +1,17 @@
 var row=1;
 var reg=document.getElementById("reg");
-reg.addEventListener("click",validation,detail);
-function validation()
+reg.addEventListener("click",validation);
+reg.addEventListener("click",detail);
+function validation(e)
     {
+            e.preventDefault();
             var user = document.getElementById('user').value;
             var pwd = document.getElementById('pass').value;
             var comp= document.getElementById('compass').value;
             var mob= document.getElementById('mobile').value;
             var ema= document.getElementById('email').value;
             var acard= document.getElementById('card').value;
-            
+            console.log("user",user);
             
             if(user == "")
             {
@@ -53,6 +55,7 @@ function validation()
             else {
                 document.getElementById('password').innerHTML="";
             } 
+            
             if(comp == "")
             {
                 document.getElementById('Confirmpassword').innerHTML="please fill the confirm password";
